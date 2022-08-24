@@ -8,6 +8,7 @@ for (let i = 0; i < gridSize; ++i) {
   for (let j = 0; j < gridSize; ++j) {
     let cell = document.createElement("div");
     cell.classList.add("cell");
+    cell.addEventListener("mouseover", () => cell.classList.add("black"));
     row.appendChild(cell);
   }
   container.appendChild(row);

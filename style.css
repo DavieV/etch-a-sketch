@@ -15,3 +15,7 @@
   height: 50px;
   border: solid 1px red;
 }
+
+.black {
+  background-color: #000;
+}
